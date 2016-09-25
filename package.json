@@ -25,14 +25,8 @@
   },
   "homepage": "https://github.com/kinpat7/WebDev-Group-Project#readme",
   "dependencies": {
-    "body-parser": "^1.14.1",
     "express": "^4.13.3",
-    "feed": "^0.2.6",
     "fs": "0.0.2",
-    "jade": "^1.11.0",
-    "mysql": "^2.0.0-alpha8",
-    "orm": "^2.1.27",
-    "pg": "^4.4.3",
-    "striptags": "^2.0.4"
+    "jade": "^1.11.0"
   }
 }
