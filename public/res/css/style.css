@@ -1,0 +1,115 @@
+/**
+ *
+ *  nav-bar purple: #6F5499
+ *
+ *
+ */
+
+body {
+     background-color: #F1F1F1;
+}
+
+h1, h2, h3, h4, h5, p {
+     font-family: 'Open Sans', 'Arial', sans-serif;
+}
+label {
+     font-family : 'Open Sans', 'Helvetica', sans-serif;
+}
+input {
+    font-family : 'Roboto', 'Helvetica', sans-serif;
+}
+.navbar {
+    border-radius: 0;
+}
+.navbar .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:hover {
+    color : #8BC542;
+}
+.navbar a:hover, .navbar-inverse a:hover,
+.navbar a:focus, .navbar-inverse a:focus {
+    outline : 0;
+}
+.logo-a {
+    padding-top: 2px;
+}
+
+.row {
+    margin-left : 0;
+    margin-right : 0;
+    background-color : #F1F1F1;
+}
+.panel-main {
+    min-height: 45em;
+}
+.jumbotron {
+    padding : 3em;
+    border-radius: 6px;
+}
+
+.jumbotron h1 {
+    color: #8BC542;
+}
+
+.page-header {
+    margin : 0;
+    padding : 1.3em;
+}
+
+.comment-box {
+    min-height: 110px;
+    width : 75%;
+}
+
+.comments {
+    padding : 1.35em;
+}
+
+/**
+ *  custom bootstrap classes
+ *
+ */
+
+.marg-50-left {
+ width : 49%;
+ margin-left : .4%;
+ margin-right: .4%;
+ float : left;
+}
+
+.output-panel {
+    padding : 1.2em;
+}
+
+#requests {
+    position: relative;
+    padding : 0 1.2em;
+}
+
+.empty-table {
+    padding : 3em;
+    text-align: center;
+    font-size: 1.3em;
+}
+.table-fade {
+    opacity : 0.5;
+}
+
+.span-center-big {
+    position: absolute;
+    font-size: 5em;
+    margin : 20%  30%;
+}
+
+
+.footer {
+    font-family: 'Roboto', 'Arial', Sans-serif;
+    text-align: center;
+}
+
+.request-entry:hover {
+    color : #C7254E;
+    cursor : pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+}

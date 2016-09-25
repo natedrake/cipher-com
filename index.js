@@ -37,7 +37,7 @@ app.set('view engine', 'jade');
 /**
  *  @note Connect to our MySQL DataBase
  **/
-orm.connect(' postgres://wytypydxemgfoa:f43Y1im2HXXQP6fgfj2cVQkcs-@ec2-54-75-228-51.eu-west-1.compute.amazonaws.com:5432/d2u3mq2u7lrm87?ssl=true', function(err, db) {
+orm.connect('postgres://wytypydxemgfoa:f43Y1im2HXXQP6fgfj2cVQkcs-@ec2-54-75-228-51.eu-west-1.compute.amazonaws.com:5432/d2u3mq2u7lrm87?ssl=true', function(err, db) {
     if (err) { throw err; }
     ormdb = db;
 });
@@ -332,18 +332,11 @@ app.post('/requests', function(request, response) {
                         request: ((results[key]))
                     });
                 }
-                /**
-                 *  @note convert the xml to json and parse the xml using nodexslt
-                 **/
-                var xml = nodexslt.readXmlString(json2xml(requests));
-                /**
-                 *  @note parse the xsl code for transformation
-                 **/
-                var xslt = nodexslt.readXsltFile('./xml/style.xsl');
+
                 /**
                  *  @note send the transformed XHTML
                  **/
-                response.send(nodexslt.transform(xslt, xml, []));
+                //response.send();
             }
         }
     });
@@ -406,69 +399,10 @@ function updateXML() {
          *  @note throw any errors
          **/
         if (error)  { throw error; }
-        /**
-         *  @note update our xml archive
-         **/
-        xmlWriter.startDocument();
-        xmlWriter.startElement('cc:requests');
-        /**
-         *  @note write namespace and schema definitions
-         **/
-        xmlWriter
-            .writeAttribute('xmlns:xsi','http://www.w3.org/2001/XMLSchema-instance')
-            .writeAttribute('xsi:schemaLocation', 'https://cipher-natedrake13.c9users.io/ns/tns '+__dirname+'/xml/schema.xsd')
-            .writeAttribute('xmlns', 'http://www.w3.org/1999/XSL/Transform')
-            .writeAttribute('xmlns:cc', 'https://cipher-natedrake13.c9users.io/ns/tns');
-        /**
-         *  @note iterate through the result set
-         **/
-        for(var key in results) {
-            /**
-             * @note create a datehelper object form UTC string passed from sql server
-             *      SQL is returning date as Wed, 5 Nov 2015 16:51:12 GMT +0000 (UTC)
-             *      using datehelper and Date.parse method we can return dd/mm/yyyy hh:ii:ss
-            **/
-            var epoch = (Date.parse(results[key].requested));
-            var date = new DateHelper(new Date(epoch));
-            xmlWriter.startElement('cc:request');
-            xmlWriter.writeElement('cc:id', results[key].id);
-            xmlWriter.writeElement('cc:original', results[key].original);
-            xmlWriter.writeElement('cc:encrypted', results[key].encrypted);
-            xmlWriter.writeElement('cc:requested', date.datetime());
-            xmlWriter.writeElement('cc:ip', results[key].ip);
-            xmlWriter.endElement();  /** close the request element **/
-        }
-        /**
-         *  @note close the root element {requests}
-         **/
-        xmlWriter.endElement();
-        /**
-         *  @note end the xml document
-         **/
-        xmlWriter.endDocument();
+
         /**
          *  @note check if the requests.xml file exists
         **/
-        fs.exists(__dirname+'/xml/requests.xml', function(exists) {
-            if (exists) {
-                /**
-                 *  @note create a write stream for writing the XML to a file
-                 **/
-                var writeStream = fs.createWriteStream(__dirname+'/xml/requests.xml');
-                /**
-                 *  @note perform the writing
-                 **/
-                writeStream.write(xmlWriter.toString(), 'UTF-8', function(error) {
-                   if (error)  { throw error; }
-                   /**
-                    *   @note re-initalize our XMLWriter
-                    *       causing issues were XML would append after multiple requests
-                    *       and XML file would contain multiple records and XML declarations
-                    **/
-                   xmlWriter = new XMLWriter(true);
-                });
-            }
-        });
     });
 }
 
