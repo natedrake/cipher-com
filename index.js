@@ -17,18 +17,12 @@ app.use(express.static(__dirname + '/xml'));
 app.set('views', __dirname + '/public/views');
 app.set('view engine', 'jade');
 
-
-/**
- *  @note for parsing query string in url
- **/
-app.use(bodyParser.urlencoded({extended: false}));
-
 /**
  *  @note Get Requests
  **/
 app.get('/', function(request, response) {
     response.render('index');
-}
+});
 
 var server = app.listen((process.env.PORT || 8080), function () {
     var hostname = server.address().address;
