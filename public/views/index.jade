@@ -1,0 +1,28 @@
+extends header
+
+block content
+    .row
+      .col-sm-2
+      .col-sm-8
+        .panel.panel-default.panel-main
+          #main-body.panel-body
+            .jumbotron
+              .container
+                h1 Encrypt Your Text
+                p
+                  | Type a phrase you would like to encrypt. Choose a cipher to encrypt your text and click encrypt to reveal the encrypted text.
+            .control-panel
+              form#encrypt-form.marg-50-left
+                .form-group
+                  label(for='input-text') Text to Encrypt
+                  input#input-text.form-control(type='text', name='inputtext', placeholder='Text to encrypt', autocomplete='off')
+                .form-group
+                  label(for='input-select') Cipher
+                  select#input-select.form-control(name='cipherinput')
+                    option(value='cae') Caesar
+                    option(value='vig') Vigenere
+                button.btn.btn-primary(type='submit') Encrypt
+                #response
+              #output-panel.marg-50-left
+                #requests
+      .col-sm-2
