@@ -1,0 +1,19 @@
+extends header
+block content
+    .row
+        .col-sm-2
+        .col-sm-8
+            .panel.panel-default.panel-main
+                #main-body.panel-body
+                    h3 Cipher Com Blog
+                    each post in posts
+                        .panel.panel-default
+                            .panel-body
+                                .media
+                                    .media-left
+                                        a(href='/blog/#{post.id}')
+                                            img.media-object(src='/res/img/brand_logo_new.png', width='40', height='45', alt='')
+                                    .media-body
+                                        h4.media-heading #{post.title}
+                                        p #{post.description}
+        .col-sm-2

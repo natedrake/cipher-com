@@ -11,10 +11,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var Feed = require('feed');
 var orm = require('orm');
-var json2xml = require('json2xml');
-var nodexslt = require("node_xslt");
 var striptags = require('striptags');
-var XMLWriter = require("xml-writer");
 
 /**
  *  @note custom packages
@@ -28,7 +25,6 @@ var DateHelper = require('./public/res/js/lib/datehelper.js');
  **/
 var ormdb;
 var xmlCleaner = new XMLCleaner();
-var xmlWriter = new XMLWriter(true);    /** true param if xml to be indented **/
 
 /**
  *  @note for calling js, and css files, etc...
@@ -41,7 +37,7 @@ app.set('view engine', 'jade');
 /**
  *  @note Connect to our MySQL DataBase
  **/
-orm.connect('mysql://natedrake13:@localhost/c9', function(err, db) {
+orm.connect(' postgres://wytypydxemgfoa:f43Y1im2HXXQP6fgfj2cVQkcs-@ec2-54-75-228-51.eu-west-1.compute.amazonaws.com:5432/d2u3mq2u7lrm87?ssl=true', function(err, db) {
     if (err) { throw err; }
     ormdb = db;
 });
@@ -187,17 +183,9 @@ app.get('/rss', function(request, response) {
  **/
 app.get('/archive', function(request, response) {
     /**
-     *  @note xml file of all requests to server
-     **/
-    var xml = nodexslt.readXmlFile(__dirname+'/xml/requests.xml');
-    /**
-     *  @note xsl file with all xml styling
-     **/
-    var xslt = nodexslt.readXsltFile(__dirname+'/xml/style.xsl');
-    /**
      *  @note respond with the transformation
      **/
-    response.send(nodexslt.transform(xslt, xml, []));
+    response.render('archive');
 });
 
 /**

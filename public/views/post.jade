@@ -1,0 +1,29 @@
+extends header
+block head
+    title Cipher Com | #{post.title}
+block content
+    .row
+        .col-sm-2.col-xs-0
+        .col-sm-8.col-xs-12
+            .panel.panel-default.panel-main
+                #main-body.panel-body
+                    .media
+                        .media-body
+                            h1 #{post.title}
+                        .media-right
+                            a(href='#')
+                            img.media-object(src='/res/img/brand_logo_new.png', alt='Cipher-com Post Photo')
+                    hr
+                    p #{post.description}
+                    hr
+                    h4 Leave a comment
+                    form#comment-form
+                        .form-group
+                            input(type='hidden', name='postid' id='postid' value="#{post.id}")
+                            textarea.form-control.comment-box#comment-body(placeholder="Leave a comment", name='body', required='required')
+                        button.btn.btn-success(type='submit', id='submit-comment', name='comment') Comment
+                    .comments
+                        h3 User comments
+                        each comment in comments
+                            .well #{comment.body}
+        .col-sm-2.col-xs-0
