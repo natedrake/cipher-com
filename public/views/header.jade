@@ -8,13 +8,8 @@ html
         link(href='https://fonts.googleapis.com/css?family=Roboto', rel='stylesheet', type='text/css')
         link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
         link(rel='stylesheet', href='/res/css/style.css', media='screen', title='no title')
-        script(src='//code.jquery.com/jquery-1.11.3.min.js', type='text/javascript')
+        script(src='https://code.jquery.com/jquery-1.11.3.min.js', type='text/javascript')
         script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js', type='text/javascript')
-        script(type='text/javascript', src='/res/js/lib/util.js')
-        script(type='text/javascript', src='/res/js/lib/xmltoken.js')
-        script(type='text/javascript', src='/res/js/lib/dom.js')
-        script(type='text/javascript', src='/res/js/lib/xpath.js')
-        script(type='text/javascript', src='/res/js/lib/xslt.js')
         script(type='text/javascript', src='/res/js/main.js')
         block head
         title Cipher Com
@@ -33,5 +28,16 @@ html
                     ul.nav.navbar-nav
                         li
                             a#blog-link(href='/blog') Blog
+                        li
+                            a#archive-link(href='/archive') Archive
                     ul.nav.navbar-nav.navbar-right
+                        li
+                            a#rss-link(href='/rss') RSS Feed
+        script.
+          ((window.gitter = {}).chat = {}).options = {
+            room: 'kinpat7/WebDev-Group-Project'
+          };
+        script(src='https://sidecar.gitter.im/dist/sidecar.v1.js', async='', defer='')
         block content
+        .footer
+            p Cipher-com 2015
