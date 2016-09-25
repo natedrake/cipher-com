@@ -4,7 +4,7 @@
   "description": "Web App to encrypt text using classical ciphers.",
   "main": "index.js",
   "scripts": {
-    "start": "npm start"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
