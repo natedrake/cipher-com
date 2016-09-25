@@ -3,9 +3,6 @@
   "version": "1.0.1",
   "description": "Web application to encrypt text using classical ciphers",
   "main": "index.js",
-  "engines": {
-      "node": "0.10.0"
-  },
   "scripts": {
     "start": "npm start"
   },
