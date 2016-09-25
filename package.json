@@ -1,33 +1,41 @@
 {
-  "name": "cipher-com",
-  "version": "1.0.1",
-  "description": "Web application to encrypt text using classical ciphers",
+  "name": "projectcipher",
+  "version": "1.0.0",
+  "description": "Web App to encrypt text using classical ciphers.",
   "main": "index.js",
   "scripts": {
     "start": "npm start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/natedrake/cipher-com.git"
+    "url": "git+https://github.com/kinpat7/WebDev-Group-Project.git"
   },
   "keywords": [
-    "encryption",
-    "node",
-    "javascript",
     "cipher",
-    "caesar"
+    "substitute",
+    "polyalphabetic",
+    "monoalphabetic",
+    "caesar",
+    "vigenere"
   ],
-  "author": "John P. O'Grady, Patrick King",
+  "author": "John OG, Pat K, Nick",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/natedrake/cipher-com/issues"
+    "url": "https://github.com/kinpat7/WebDev-Group-Project/issues"
   },
-  "homepage": "https://github.com/natedrake/cipher-com#readme",
+  "homepage": "https://github.com/kinpat7/WebDev-Group-Project#readme",
   "dependencies": {
-      "body-parser": "^1.14.1",
-      "express": "^4.13.3",
-      "feed": "^0.2.6",
-      "jade": "^1.11.0",
-      "orm": "^2.1.27"
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "feed": "^0.2.6",
+    "fs": "0.0.2",
+    "jade": "^1.11.0",
+    "json2xml": "^0.1.2",
+    "mysql": "^2.0.0-alpha8",
+    "node_xslt": "~0.1.9",
+    "orm": "^2.1.27",
+    "pg": "^4.4.3",
+    "striptags": "^2.0.4",
+    "xml-writer": "^1.6.0"
   }
 }
