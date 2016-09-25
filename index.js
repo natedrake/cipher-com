@@ -66,11 +66,12 @@ app.get('/blog', function(request, response) {
     /**
      *  @note define our blog post model
      **/
-    var post = ormdb.define('blog', {
-        id: Number,
-        title: String,
-        description: String
-    });
+    if (ormdb)
+        var post = ormdb.define('blog', {
+            id: Number,
+            title: String,
+            description: String
+        });
     /**
      *  @note find all blog posts and sort accordingly
      **/
@@ -93,13 +94,14 @@ app.get('/blog/:id', function(request, response) {
     /**
      *  @note define our comment model
      **/
-    var comment = ormdb.define('comments', {
-        id: Number,
-        body: String,
-        posted: Date,
-        post: Number,
-        comment: Number
-    });
+    if (ormdb)
+        var comment = ormdb.define('comments', {
+            id: Number,
+            body: String,
+            posted: Date,
+            post: Number,
+            comment: Number
+        });
     /**
      *  @note find post with given id
      **/
@@ -291,13 +293,14 @@ app.post('/requests', function(request, response) {
     /**
      *  @note define our request entry model
      **/
-    var entry = ormdb.define('requests', {
-        id: Number,
-        original: String,
-        encrypted: String,
-        requested: Date,
-        ip: String
-    });
+    if (ormdb)
+        var entry = ormdb.define('requests', {
+            id: Number,
+            original: String,
+            encrypted: String,
+            requested: Date,
+            ip: String
+        });
     /**
      *  @note search the requests relation for any row with an
      *      ip attribute that matches the users ip address

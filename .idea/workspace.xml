@@ -2,101 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d772c1da-423f-4916-9972-7fffb6a93feb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\lib\PoolCluster.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\lib\PoolConnection.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\lib\PoolNamespace.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\lib\PoolSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\lib\protocol\constants\ssl_profiles.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\lib\protocol\packets\SSLRequestPacket.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\bignumber.js\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\bignumber.js\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\bignumber.js\bignumber.js.map" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\bignumber.js\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\README.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\duplex.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\float.patch" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\lib\_stream_duplex.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\lib\_stream_passthrough.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\lib\_stream_readable.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\lib\_stream_transform.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\lib\_stream_writable.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\core-util-is\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\core-util-is\README.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\core-util-is\float.patch" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\core-util-is\lib\util.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\core-util-is\package.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\core-util-is\test.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\inherits\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\inherits\README.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\inherits\inherits.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\inherits\inherits_browser.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\inherits\package.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\isarray\README.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\isarray\build\build.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\isarray\component.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\isarray\index.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\isarray\package.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\string_decoder\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\string_decoder\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\string_decoder\README.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\string_decoder\index.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\node_modules\string_decoder\package.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\package.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\passthrough.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\readable.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\transform.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\readable-stream\writable.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\sqlstring\HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\sqlstring\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\sqlstring\README.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\sqlstring\index.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\sqlstring\lib\SqlString.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\Dropbox\Dropbox\Portfolio\cipher-com\node_modules\mysql\node_modules\sqlstring\package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/node_modules/bignumber.js/doc/API.html" afterPath="$PROJECT_DIR$/node_modules/mysql/node_modules/bignumber.js/doc/API.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Auth.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Auth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/Changes.md" afterPath="$PROJECT_DIR$/node_modules/mysql/Changes.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/Connection.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/Connection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/ConnectionConfig.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/ConnectionConfig.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/Field.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/Field.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/FieldPacket.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/FieldPacket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Handshake.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Handshake.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketWriter.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketWriter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Ping.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Ping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/Pool.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/Pool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/PoolConfig.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolConfig.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Protocol.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Protocol.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Query.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Query.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Quit.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Quit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/node_modules/bignumber.js/README.md" afterPath="$PROJECT_DIR$/node_modules/mysql/node_modules/bignumber.js/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/Readme.md" afterPath="$PROJECT_DIR$/node_modules/mysql/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/SqlString.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/SqlString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Statistics.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Statistics.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/node_modules/bignumber.js/bignumber.js" afterPath="$PROJECT_DIR$/node_modules/mysql/node_modules/bignumber.js/bignumber.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/node_modules/bignumber.js/bignumber.min.js" afterPath="$PROJECT_DIR$/node_modules/mysql/node_modules/bignumber.js/bignumber.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/charsets.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/charsets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/errors.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/errors.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/index.js" afterPath="$PROJECT_DIR$/node_modules/mysql/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/index.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/index.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/package.json" afterPath="$PROJECT_DIR$/node_modules/mysql/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/node_modules/bignumber.js/package.json" afterPath="$PROJECT_DIR$/node_modules/mysql/node_modules/bignumber.js/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/server_status.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/server_status.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/types.js" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cipher-com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,8 +66,18 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95957196">
-              <caret line="399" column="77" selection-start-line="399" selection-start-column="77" selection-end-line="399" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.8287753">
+              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.444445">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -178,6 +95,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2f11dd0e-019d-4ebf-aa14-7f6f28fab642/console.sql" />
         <option value="$PROJECT_DIR$/assets/127_0_0_1.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7d8be52b-5650-4175-971e-0ccfedfdf23f/console.sql" />
+        <option value="$PROJECT_DIR$/public/views/index.jade" />
         <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
@@ -248,6 +166,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cipher-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cipher-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cipher-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cipher-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -303,7 +253,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -321,6 +271,22 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection>
+        <UserGroup>
+          <option name="users">
+            <list>
+              <option value="me" />
+            </list>
+          </option>
+        </UserGroup>
+      </collection>
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -410,10 +376,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.444445">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95957196">
-          <caret line="399" column="77" selection-start-line="399" selection-start-column="77" selection-end-line="399" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.8287753">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding />
         </state>
       </provider>
