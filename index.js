@@ -28,6 +28,7 @@ app.use(bodyParser.urlencoded({extended: false}));
  **/
 app.get('/', function(request, response) {
     response.render('index');
+}
 
 var server = app.listen((process.env.PORT || 8080), function () {
     var hostname = server.address().address;
