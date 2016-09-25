@@ -9,6 +9,14 @@ var fs = require("fs");
 var express = require('express');
 var app = express();
 
+var orm = require('orm');
+
+/**
+ *  @note global variables
+ **/
+
+var ormdb;
+
 /**
  *  @note for calling js, and css files, etc...
  **/
@@ -16,6 +24,14 @@ app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/xml'));
 app.set('views', __dirname + '/public/views');
 app.set('view engine', 'jade');
+
+/**
+ *  @note Connect to our PostgreSQL DataBase
+ **/
+orm.connect('postgres://wytypydxemgfoa:f43Y1im2HXXQP6fgfj2cVQkcs-@ec2-54-75-228-51.eu-west-1.compute.amazonaws.com:5432/d2u3mq2u7lrm87?ssl=true', function(err, db) {
+    if (err) { throw err; }
+    ormdb = db;
+});
 
 /**
  *  @note Get Requests
